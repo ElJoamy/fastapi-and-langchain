@@ -1,7 +1,17 @@
+Listado de rutas de carpetas para el volumen DATA
+El n�mero de serie del volumen es 7CF5-E38B
 D:.
-    .env
-    app.py
-    config.py
-    prompts.py
-    README.md
-    tree.txt
+�   .env
+�   .env.example
+�   .gitignore
+�   app.py
+�   config.py
+�   prompts.py
+�   README.md
+�   tree.txt
+�   
++---__pycache__
+        app.cpython-311.pyc
+        config.cpython-311.pyc
+        prompts.cpython-311.pyc
+        
