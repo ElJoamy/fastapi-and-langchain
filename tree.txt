@@ -1,0 +1,7 @@
+D:.
+    .env
+    app.py
+    config.py
+    prompts.py
+    README.md
+    tree.txt
