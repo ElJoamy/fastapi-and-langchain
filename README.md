@@ -14,14 +14,14 @@ Este proyecto es una API implementada con FastAPI que utiliza el modelo GPT de O
 ### Instalación
 Primero, clona el repositorio e instala las dependencias:
 ```bash
-git clone [URL del repositorio]
-cd [Nombre del directorio]
+git clone https://github.com/ElJoamy/fastapi-and-langchain.git
+cd fastapi-and-langchain
 pip install -r requirements.txt
 ```
 
 ### Configuración del Entorno
 Crea un archivo `.env` basado en `.env.example` y actualiza las variables de entorno:
-```
+```.env.example
 API_NAME="LangChain usando FastAPIPRUEBA"
 REVISION="debug"
 GPT="gpt-3.5-turbo-1106"
@@ -33,9 +33,11 @@ API_KEY="[TU CLAVE DE API DE OPENAI]"
 ## Ejecución
 Para iniciar el servidor, ejecuta:
 ```bash
-uvicorn app:app --reload
+python app.py
 ```
 El servidor estará disponible en `http://127.0.0.1:8000/`.
+
+Y si quieres ver los endpoints disponibles, puedes acceder a la documentación de Swagger en `http://127.0.0.1:8000/docs`.
 
 ## Endpoints
 
